@@ -75,6 +75,7 @@
 		<Item Name="MQTT_UnsubAck_Send.vi" Type="VI" URL="../Sub/MQTT_UnsubAck_Send.vi"/>
 		<Item Name="Sub_Build_Connect_Flags_Byte.vi" Type="VI" URL="../Sub/Sub_Build_Connect_Flags_Byte.vi"/>
 		<Item Name="Sub_Build_Fixed_Header.vi" Type="VI" URL="../Sub/Sub_Build_Fixed_Header.vi"/>
+		<Item Name="Sub_Build_MQTT_PubPayload_String.vi" Type="VI" URL="../Sub/Sub_Build_MQTT_PubPayload_String.vi"/>
 		<Item Name="Sub_Build_MQTT_String.vi" Type="VI" URL="../Sub/Sub_Build_MQTT_String.vi"/>
 		<Item Name="Sub_Build_Variable_Header_ConnACK.vi" Type="VI" URL="../Sub/Sub_Build_Variable_Header_ConnACK.vi"/>
 		<Item Name="Sub_Build_Variable_Header_Connect.vi" Type="VI" URL="../Sub/Sub_Build_Variable_Header_Connect.vi"/>
