@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-23 17:34:30" Modified_Date="2016-08-08 18:17:33" Creator="padelhardt" Comments="" ID="ac1ac924d1dd64feb98fcdfc8a985eed">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-23 17:34:30" Modified_Date="2016-08-09 11:52:38" Creator="padelhardt" Comments="" ID="af0919d4602e15376090b075a0274359">
   <Library_General_Settings>
     <Package_File_Name>daq_io_MQTT_LabVIEW_Client</Package_File_Name>
-    <Library_Version>0.9.2.6</Library_Version>
+    <Library_Version>0.9.2.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,9 +34,10 @@ MQTT  servers manage the data flow between connected clients. With the client AP
       <Copyright/>
       <Packager>Peter Adelhardt</Packager>
       <URL>www.daq.io</URL>
-      <Release_Notes>V 0.9.2 - Aug 8, 2016
+      <Release_Notes>V 0.9.2 - Aug 9, 2016
 
-fixed various enum typecasts for return functions</Release_Notes>
+- fixed various enum typecasts for return functions
+- fixed "read published message" to not remove the first 2 bytes</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -352,7 +353,7 @@ fixed various enum typecasts for return functions</Release_Notes>
         <Path>examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38D447A3429017E9757B5558B5A52663</GUID>
+      <GUID>6C5454B83701D398AB384979885C7F8B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -415,7 +416,7 @@ fixed various enum typecasts for return functions</Release_Notes>
         <Path>examples\MQTT_Simple_Connect_and_Subscribe.vi</Path>
         <VI_Title>MQTT Connect and Subscribe</VI_Title>
       </Items_Data>
-      <GUID>1F7AD460E2AAA33281D4DF0ACBA06BB5</GUID>
+      <GUID>62AE719F60024A3F23C749E273C2B8B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -534,7 +535,7 @@ fixed various enum typecasts for return functions</Release_Notes>
         <Path>ReadResponse\MQTT_SubAck_Read.vi</Path>
         <VI_Title>MQTT SubAck Read</VI_Title>
       </Items_Data>
-      <GUID>C0342802DBF807466FD9D93F70972250</GUID>
+      <GUID>5DE0E96F2815DA1EEBF7EB10DEE2E19A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -653,7 +654,7 @@ fixed various enum typecasts for return functions</Release_Notes>
         <Path>Sub\MQTT_UnsubAck_Send.vi</Path>
         <VI_Title>MQTT UnsubAck Send</VI_Title>
       </Items_Data>
-      <GUID>5B758D7199B74B1505B816CCE5125E25</GUID>
+      <GUID>67F9DDF95ECBE95DDCE51CE01E8FEAFB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -926,7 +927,7 @@ fixed various enum typecasts for return functions</Release_Notes>
         <Path>Sub\Sub_Build_Connect_Flags_Byte.vi</Path>
         <VI_Title>Sub Build Connect Flag Byte</VI_Title>
       </Items_Data>
-      <GUID>527E44D6D3B8A5E7CCC1BADD05DAE76B</GUID>
+      <GUID>182ECF572492B1A828F41FC04AD88460</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
